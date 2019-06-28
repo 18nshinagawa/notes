@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/pages/nshinagawa3/notes/precache-manifest.b08074ce352a8cf298e632e2c0a314e3.js"
+  "/notes/precache-manifest.c2a611a6b5146dd87cd6e98d3247f378.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/pages/nshinagawa3/notes/index.html", {
+workbox.routing.registerNavigationRoute("/notes/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
