@@ -32,3 +32,9 @@ Note taking app
 |**executive commands (use outside editor window)**|
 |s|save backup|
 |p|print|
+
+here are a list of keys that don't have anything assigned:
+
+- 7~0 and all punctuation
+- q?
+- e, y, u, o, d
