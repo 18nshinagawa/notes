@@ -1,6 +1,11 @@
 # notes
 Note taking app
 
+## References
+https://katex.org/docs/supported.html
+https://mhchem.github.io/MathJax-mhchem/
+
+## shortcuts 
 |key|action|
 |---|------|
 |**navigation commands**|
