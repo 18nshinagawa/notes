@@ -31,6 +31,5 @@ Note taking app
 
 here are a list of keys that don't have anything assigned:
 
-- 7~9 and all punctuation
-- q?
+- 4~9 and all punctuation
 - e, y, u, o
