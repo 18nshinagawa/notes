@@ -13,15 +13,14 @@ Note taking app
 |**inline style commands**|
 |b|bold|
 |i|italics|
-|s|strikethrough|
 |**block style commands**|
-|p|paragraph|
 |1|heading 1|
 |2|heading 2|
 |3|heading 3|
 |4|heading 4|
 |5|heading 5|
 |6|heading 6|
+|0|normal paragraph|
 |l (shift for numbered)| list|
 |**insert object commands**|
 |j (shift for block)|code|
@@ -29,12 +28,12 @@ Note taking app
 |r|horizontal rule|
 |h|hyperlink|
 |g|image|
-|**executive commands (use outside editor window)**|
-|s|save backup|
+|**executive commands**|
+|s|save backup (drag n drop file to load)|
 |p|print|
 
 here are a list of keys that don't have anything assigned:
 
-- 7~0 and all punctuation
+- 7~9 and all punctuation
 - q?
 - e, y, u, o, d
