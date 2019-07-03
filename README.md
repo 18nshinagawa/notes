@@ -10,6 +10,7 @@ Note taking app
 |x|cut|
 |c|copy|
 |v|paste|
+|r|refresh|
 |**inline style commands**|
 |b|bold|
 |i|italics|
@@ -25,7 +26,7 @@ Note taking app
 |**insert object commands**|
 |j (shift for block)|code|
 |m (shift for block)|math|
-|r|horizontal rule|
+|d|divider (horizontal rule)|
 |h|hyperlink|
 |g|image|
 |**executive commands**|
