@@ -18,15 +18,11 @@ Note taking app
 |1|heading 1|
 |2|heading 2|
 |3|heading 3|
-|4|heading 4|
-|5|heading 5|
-|6|heading 6|
 |0|normal paragraph|
 |l (shift for numbered)| list|
 |**insert object commands**|
 |j (shift for block)|code|
 |m (shift for block)|math|
-|d|divider (horizontal rule)|
 |h|hyperlink|
 |g|image|
 |**executive commands**|
