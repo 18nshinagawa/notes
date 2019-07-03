@@ -37,4 +37,4 @@ here are a list of keys that don't have anything assigned:
 
 - 7~9 and all punctuation
 - q?
-- e, y, u, o, d
+- e, y, u, o
