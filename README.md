@@ -30,7 +30,7 @@ https://mhchem.github.io/MathJax-mhchem/
 |m (shift for block)|math|
 |h|hyperlink|
 |g|image|
-|**other?**|
+|**other? commands**|
 |Enter|page break|
 |**executive commands**|
 |s|save backup (drag n drop file to load)|
