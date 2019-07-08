@@ -16,6 +16,7 @@ https://mhchem.github.io/MathJax-mhchem/
 |c|copy|
 |v|paste|
 |r|refresh|
+|R (shift r)|force refresh(check for updates)||
 |**inline style commands**|
 |b|bold|
 |i|italics|
