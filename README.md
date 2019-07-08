@@ -30,11 +30,14 @@ https://mhchem.github.io/MathJax-mhchem/
 |m (shift for block)|math|
 |h|hyperlink|
 |g|image|
+|**other?**|
+|Enter|page break|
 |**executive commands**|
 |s|save backup (drag n drop file to load)|
 |p|print|
+|o|open (in development)|
 
 here are a list of keys that don't have anything assigned:
 
 - 4~9 and all punctuation
-- e, y, u, o
+- e, y, u
