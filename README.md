@@ -34,9 +34,10 @@ https://mhchem.github.io/MathJax-mhchem/
 |**other? commands**|
 |Enter|page break|
 |**executive commands**|
-|s|save backup (drag n drop file to load)|
+|s|save file in cahce|
+|S (shift s)|save file backup|
 |p|print|
-|o|open (in development)|
+|o|open document from file|
 
 here are a list of keys that don't have anything assigned:
 
