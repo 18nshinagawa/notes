@@ -33,13 +33,15 @@ https://mhchem.github.io/MathJax-mhchem/
 |g|image|
 |**other? commands**|
 |Enter|page break|
+|e (used experimentally)|edit object|
 |**executive commands**|
 |s|save file in cahce|
 |S (shift s)|save file backup|
 |p|print|
 |o|open document from file|
 
+
 here are a list of keys that don't have anything assigned:
 
 - 4~9 and all punctuation
-- e, y, u
+-, d y, u
