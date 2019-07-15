@@ -1,0 +1,170 @@
+#keyboard {
+    height: 43.75vw;
+    width: 100vw;
+    overflow: hidden;
+    margin-top: 2.5vw;
+}
+
+.row {
+    width: 100%;
+    height: 16%;
+    margin-left: 1vw;
+    position: relative;
+}
+
+.key {
+    font-size: 1.2vw;
+    display: inline-block;
+    width: 7%;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #333333;
+    color: white;
+    border-radius: 1.2vw;
+    position: relative;
+    transition: opacity 0.15s;
+    opacity: 1;
+    border: 0.3vw solid white;
+    box-sizing: border-box;
+    transition: transform 0.05s;
+}
+
+.key.down {
+    transform: translateY(0.7vw);
+}
+
+#s, #o, #p {
+    background-color: #AA44FF;
+}
+
+#\30, #\31, #\32, #\33 {
+    background-color: #FF8844;
+}
+
+#g, #h, #j, #m, #e {
+    background-color: #FF4444;
+}
+
+#b, #i, #l {
+    background-color: #00BB66;
+}
+
+#a, #z, #x, #c, #v, #f, #return {
+    background-color: #4488FF;
+}
+
+#caps\ lock, #return {
+    width: 10.5%;
+}
+
+[id^='shift'] {
+    width: 14%;
+}
+
+#keyboard [id^='shift'].key::after {
+    content: '⇧';
+}
+
+#keyboard [id^='command'].key::after {
+    content: '⌘';
+}
+
+#keyboard [id^='control'].key::after {
+    content: '⌃';
+}
+
+#keyboard [id^='option'].key::after {
+    content: '⌥';
+}
+
+#caps\ lock::after {
+    content: '⇪';
+}
+
+#return::after {
+    content: '⏎'
+}
+
+#delete::after {
+    content: '⌫';
+}
+
+#tab::after {
+    content: '⇥';
+}
+
+#esc::after {
+    content: '⎋';
+}
+
+#\  {
+    width: 35%;
+}
+
+.key::after {
+    content: attr(id);
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%)
+}
+
+#left::after {
+    content: '←';
+}
+
+#right::after {
+    content: '→';
+}
+
+#up {
+    height: 50%;
+    border-bottom: 1px solid white;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    top: -25%;
+}
+
+#down {
+    height: 50%;
+    bottom: -25%;
+    border-top: 1px solid white;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    left: -7%;
+}
+
+#up::after {
+    content: '↑';
+}
+
+#down::after {
+    content: '↓';
+}
+
+#right {
+    position: absolute;
+    left: 91%;
+    bottom: 0;
+}
+
+.shift .key::after {
+    content: attr(data-shift);
+}
+
+.command .key::after {
+    content: attr(data-command);
+}
+
+.shift.command .key::after {
+    content: attr(data-both);
+}
+
+#empty {
+    visibility: hidden;
+}
+
+.row:first-child .key:not(#esc) {
+    background-color: transparent;
+    color: #333333;
+}
